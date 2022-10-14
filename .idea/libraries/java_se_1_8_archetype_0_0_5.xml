@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="java-se-1.8-archetype-0.0.5">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/jar_files/java-se-1.8-archetype-0.0.5.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

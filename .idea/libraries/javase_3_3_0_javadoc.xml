@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="javase-3.3.0-javadoc">
+    <CLASSES />
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/jar_files/javase-3.3.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES />
+  </library>
+</component>
