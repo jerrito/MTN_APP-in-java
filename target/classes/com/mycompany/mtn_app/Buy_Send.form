@@ -3,6 +3,12 @@
 <Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
   <Properties>
     <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+      <Dimension value="[1390, 1068]"/>
+    </Property>
+    <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+      <Dimension value="[1390, 1068]"/>
+    </Property>
   </Properties>
   <SyntheticProperties>
     <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
@@ -25,30 +31,23 @@
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" attributes="0">
               <Group type="103" groupAlignment="0" attributes="0">
-                  <Group type="102" alignment="0" attributes="0">
-                      <Group type="103" groupAlignment="1" max="-2" attributes="0">
-                          <Component id="jScrollPane2" alignment="0" pref="1367" max="32767" attributes="0"/>
-                          <Component id="jPanel1" alignment="1" max="32767" attributes="0"/>
-                      </Group>
-                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
-                  </Group>
-                  <Group type="102" alignment="1" attributes="0">
-                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
-                      <Component id="panel2" min="-2" pref="1367" max="-2" attributes="0"/>
-                  </Group>
+                  <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+                  <Component id="panel2" alignment="0" min="-2" pref="1367" max="-2" attributes="0"/>
               </Group>
-              <EmptySpace max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
           </Group>
+          <Component id="jScrollPane2" pref="1390" max="32767" attributes="0"/>
       </Group>
     </DimensionLayout>
     <DimensionLayout dim="1">
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" alignment="0" attributes="0">
-              <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+              <Component id="jPanel1" min="-2" pref="64" max="-2" attributes="0"/>
               <EmptySpace max="-2" attributes="0"/>
               <Component id="jScrollPane2" pref="863" max="32767" attributes="0"/>
-              <EmptySpace min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
               <Component id="panel2" min="-2" pref="117" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -85,14 +84,16 @@
                   <Group type="102" attributes="0">
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Group type="102" alignment="0" attributes="0">
-                              <EmptySpace min="-2" pref="213" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="195" max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="0" attributes="0">
                                   <Component id="jPanel16" min="-2" max="-2" attributes="0"/>
                                   <Component id="jPanel14" min="-2" max="-2" attributes="0"/>
                                   <Component id="jPanel10" min="-2" max="-2" attributes="0"/>
-                                  <Component id="jPanel6" min="-2" max="-2" attributes="0"/>
                                   <Component id="jPanel5" min="-2" max="-2" attributes="0"/>
-                                  <Component id="jPanel12" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
+                                      <Component id="jPanel6" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="jPanel12" alignment="0" max="32767" attributes="0"/>
+                                  </Group>
                               </Group>
                           </Group>
                           <Group type="102" alignment="0" attributes="0">
@@ -100,7 +101,7 @@
                               <Component id="decider" min="-2" max="-2" attributes="0"/>
                           </Group>
                       </Group>
-                      <EmptySpace pref="336" max="32767" attributes="0"/>
+                      <EmptySpace pref="366" max="32767" attributes="0"/>
                   </Group>
               </Group>
             </DimensionLayout>
@@ -267,7 +268,7 @@
                               <Component id="jLabel5" min="-2" pref="484" max="-2" attributes="0"/>
                               <Component id="jLabel7" min="-2" pref="197" max="-2" attributes="0"/>
                           </Group>
-                          <EmptySpace pref="269" max="32767" attributes="0"/>
+                          <EmptySpace max="32767" attributes="0"/>
                           <Component id="jPanel9" min="-2" max="-2" attributes="0"/>
                       </Group>
                   </Group>
@@ -798,7 +799,7 @@
                   <Component id="mtn" min="-2" pref="157" max="-2" attributes="0"/>
                   <EmptySpace min="-2" pref="342" max="-2" attributes="0"/>
                   <Component id="home" min="-2" max="-2" attributes="0"/>
-                  <EmptySpace max="32767" attributes="0"/>
+                  <EmptySpace pref="618" max="32767" attributes="0"/>
                   <Component id="align" min="-2" max="-2" attributes="0"/>
                   <EmptySpace min="-2" pref="44" max="-2" attributes="0"/>
               </Group>
@@ -869,17 +870,17 @@
         <DimensionLayout dim="0">
           <Group type="103" groupAlignment="0" attributes="0">
               <Group type="102" alignment="0" attributes="0">
-                  <EmptySpace min="-2" pref="71" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="72" max="-2" attributes="0"/>
                   <Component id="home_main" min="-2" max="-2" attributes="0"/>
-                  <EmptySpace min="-2" pref="181" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="177" max="-2" attributes="0"/>
                   <Component id="cart" min="-2" max="-2" attributes="0"/>
-                  <EmptySpace min="-2" pref="198" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="197" max="-2" attributes="0"/>
                   <Component id="momo" min="-2" pref="132" max="-2" attributes="0"/>
-                  <EmptySpace pref="227" max="32767" attributes="0"/>
+                  <EmptySpace min="-2" pref="194" max="-2" attributes="0"/>
                   <Component id="just_4_u" min="-2" max="-2" attributes="0"/>
-                  <EmptySpace min="-2" pref="208" max="-2" attributes="0"/>
+                  <EmptySpace pref="273" max="32767" attributes="0"/>
                   <Component id="more" min="-2" max="-2" attributes="0"/>
-                  <EmptySpace min="-2" pref="94" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="66" max="-2" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
@@ -887,16 +888,25 @@
           <Group type="103" groupAlignment="0" attributes="0">
               <Group type="102" alignment="1" attributes="0">
                   <EmptySpace max="32767" attributes="0"/>
-                  <Group type="103" groupAlignment="1" attributes="0">
-                      <Component id="more" alignment="1" min="-2" max="-2" attributes="0"/>
-                      <Component id="just_4_u" alignment="1" min="-2" max="-2" attributes="0"/>
-                      <Component id="momo" alignment="1" min="-2" pref="115" max="-2" attributes="0"/>
-                      <Group type="103" alignment="1" groupAlignment="0" attributes="0">
-                          <Component id="cart" alignment="0" min="-2" max="-2" attributes="0"/>
-                          <Component id="home_main" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="just_4_u" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
+              </Group>
+              <Group type="102" attributes="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="14" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="cart" min="-2" max="-2" attributes="0"/>
+                              <Component id="home_main" min="-2" max="-2" attributes="0"/>
+                          </Group>
                       </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="more" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Component id="momo" alignment="0" min="-2" pref="115" max="-2" attributes="0"/>
                   </Group>
-                  <EmptySpace max="-2" attributes="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
